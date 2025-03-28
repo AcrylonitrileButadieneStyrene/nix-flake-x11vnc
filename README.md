@@ -18,7 +18,7 @@ nixpkgs.lib.nixosSystem {
   modules = [
     options-x11vnc.nixosModules.default # Add this line.
     ./configuration.nix
-  ]
+  ];
 }
 ```
 

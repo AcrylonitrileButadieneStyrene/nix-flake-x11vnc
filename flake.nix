@@ -3,5 +3,5 @@
 
   inputs = { };
 
-  outputs = { }: { nixosModules.default = ./module.nix; };
+  outputs = { ... }: { nixosModules.default = ./module.nix; };
 }
